@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <style>
+        /* CSS reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(abs-1850926_1280.jpg);
+            color: white;
+            font-family: 'Baloo Bhai';
+            
+           
+
+        }
+
+        .left {
+          
+            display: inline-block;
+            position: absolute;
+            font-size: 15px;
+
+            left: 22px;
+            top: 22px;
+
+        }
+        .left img{
+            width: 100px;
+            filter: invert(100%);
+            border-radius: 100%;
+        }
+
+        .mid {
+           
+            display: block;
+            width: 33%;
+            margin: 21px auto;
+        }
+
+        .right {
+          
+            display: inline-block;
+            position: absolute;
+
+            right: 4px;
+            top: 21px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar ul  li a{
+            color: white;
+             text-decoration: none;
+            padding: 6px 5px;
+            margin: 2px;
+        }
+        .navbar ul  li a:active,.navbar ul li a:hover{
+            text-decoration: underline;
+            color: gray;
+        }
+
+        
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+
+
+        }
+.left div{
+    text-align: center;
+    line-height: 0px;
+    padding-bottom: 4px;
+
+  
+}
+.btn{
+    padding: 1px;
+    margin:4px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;;
+
+}
+.man{
+    padding: 6px;
+    padding-top: 12px;
+    margin: 65px;
+    border: 4px;
+    width: 40%;
+    border-radius: 60px;
+    margin-left: 25%;
+
+   
+    
+}
+.comp{
+    font-family: 'Baloo Bhai';
+    text-align: center;
+    border-radius: 34px;
+    margin: 5px;
+    width: 80%;
+ 
+}
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.back input{
+    background-color: black;
+    color: white;
+   ;
+}
+
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarpit's gym</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left for logo -->
+
+            <img src="https://thumbs.dreamstime.com/b/barbel-dumbbell-gym-icon-logo-template-barbel-dumbbell-gym-icon-logo-template-gym-badge-fitness-logo-design-barbell-vector-weight-144308752.jpg" alt="">
+           <div class="back"> Samarpit Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid for navigation -->
+            <nav class="navbar">
+                <ul>
+
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <buttton class="btn">Call us</buttton>
+            <buttton class="btn">Email us</buttton>
+        </div>
+
+    
+    <br></header>
+    <div class="man">
+        <h1> Form</h1>
+        <form  class="make"> 
+            <!-- done with the help of code with harry tutorial no 8 -->
+             <!-- name comes in backend  -->
+              <!--with same name we can choose only one  -->
+               
+            
+                    <div>
+            
+                        <input type="text" name="myname" id="name" class="comp" placeholder="input your name">
+            
+                    </div>
+                    <div>
+                        <input type="text" class="comp" placeholder="input your locality">
+                    </div>
+                    
+                    <div>
+                        <input type="text" name=" my birth date" id="date"class="comp" placeholder="Birth Date">
+                    </div> 
+                            
+    
+            
+                            <div>
+                                <input type="email"  class="comp"
+                                placeholder="input your email">
+                            </div>
+                   
+                    <div>
+                        <input type="text"  placeholder="input your gender" class="comp">
+                      
+             </div>
+        
+            
+                    <div  class="back">
+                        <input type="submit" name="submit now" class="comp">
+                    </div>
+    </div>
+
+</body>
+
+</html>
